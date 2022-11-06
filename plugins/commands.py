@@ -45,13 +45,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Cyniteofficial'),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/TechnicalCynite')
-        ], [
-            InlineKeyboardButton('ʜᴇʟᴘ ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ ', callback_data='about')
+           
+            InlineKeyboardButton('🎁Sᴜʀᴘʀɪsᴇ 🎁', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
