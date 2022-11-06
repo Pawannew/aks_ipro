@@ -29,7 +29,7 @@ async def start(client, message):
                 InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/Cyniteofficial"),
             ],
             [
-                InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/mdisklink_link/2)
+                InlineKeyboardButton('⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡', url='https://t.me/mdisklink_link/2)
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
