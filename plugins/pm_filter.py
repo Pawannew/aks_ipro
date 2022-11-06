@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/how_to_download_channel/11')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/mdisklink_link/2')
         ]
     )
 
@@ -199,7 +199,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             title = query.message.chat.title
 
         else:
-            return await query.answer('Piracy Is Crime')
+            return await query.answer('@OkFilterBot Is Best')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -433,13 +433,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ADD ME TO YOUR GROUP ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⭕️ SUBSCRIBE ⭕️', url='https://youtube.com/channel/UCPWbsW-g2CW5PSJ_50CmtUQ'),
-            InlineKeyboardButton('🤖 UPDATES 🤖', url='https://t.me/Imdb_updates')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Cyniteofficial'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/TechnicalCynite')
         ], [
-            InlineKeyboardButton('❓️ HELP ❓️', callback_data='help'),
-            InlineKeyboardButton('🌀 ABOUT 🌀', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -688,7 +688,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/how_to_download_channel/11')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/mdisklink_link/2')
         ]
     )
 
