@@ -12,20 +12,19 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
-    START_TXT = environ.get("START_TXT", '''ʜɪ {} 👋🏻  ɪ'ᴍ ᴍᴏᴠɪᴇ ꜰɪʟᴇs sᴇᴀʀᴄʜ ʙᴏᴛ ɪ ᴄᴀɴ sᴇᴀʀᴄʜ ᴀɴʏ ᴛʏᴘᴇs ᴏꜰ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ꜰɪʟᴇ ꜰᴏʀᴍᴀᴛ.👽
-<i>ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs 🙈😈👹</i>''')
+    START_TXT = environ.get("START_TXT", '''𝙷𝙴𝙻𝙻𝙾 {} 👋🏻  𝙸 𝙰𝙼 𝙰𝙽 𝙰𝚄𝚃𝙾-𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿. 𝙰𝙳𝙳 𝙼𝙴 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..!👽</i>''')
     HELP_TXT = """ʜᴇʏ {}
-ʜᴇʀᴇ ɪs ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/lotus_filter_bot ><b>lotus bot</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Imdb_updates><b>imdb updates</b></a>\n
+ʜᴇʀᴇ ɪs ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ. ."""
+    ABOUT_TXT = """<b>ᴀʙᴏᴜᴛ ᴍᴇ <i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/okfilterbot ><b>ғɪʟᴛᴇʀ ʙᴏᴛ</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Cyniteofficial><b>ᴄʏɴɪᴛᴇ</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Imdb_updates><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/TechnicalCynite><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
-» I will give repo for you<b>
-» Contact Me @Aks_support01_bot<b>"""
+» 𝙒𝙖𝙣𝙩 𝙏𝙤 𝙍𝙚𝙥𝙤 𝙊𝙛 𝙏𝙝𝙞𝙨 𝘽𝙤𝙩 𝘽𝙪𝙙𝙙𝙮! <b>
+» 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 @cyniteofficial<b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
@@ -50,7 +49,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Aks_support01_bot)</code>
+<code>[Button Text](buttonurl:https://t.me/cyniteofficial)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
