@@ -15,8 +15,8 @@ class script(object):
     START_TXT = environ.get("START_TXT", '''<b>ʜᴇʟʟᴏ {} 👋🏻  ɪ'ᴍ ᴍᴏᴠɪᴇ ꜰɪʟᴇs sᴇᴀʀᴄʜ ʙᴏᴛ ɪ ᴄᴀɴ sᴇᴀʀᴄʜ ᴀɴʏ ᴛʏᴘᴇs ᴏꜰ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ꜰɪʟᴇ ꜰᴏʀᴍᴀᴛ..👽</b>
 
 <i>ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs 🙈😈👹</i>''')
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP_TXT = """ʜᴇʏ {}
+ʜᴇʀᴇ ɪs ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅ."""
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/lotus_filter_bot ><b>lotus bot</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Imdb_updates><b>imdb updates</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
@@ -25,7 +25,7 @@ class script(object):
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Imdb_updates><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
-» I will Create One Bot For You<b>
+» I will give repo for you<b>
 » Contact Me @Aks_support01_bot<b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
