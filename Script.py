@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
-    START_TXT = environ.get("START_TXT", '''𝘏𝘪 {} 👋🏻  𝘐'𝘮 𝘔𝘰𝘷𝘪𝘦 𝘍𝘪𝘭𝘦𝘴 𝘚𝘦𝘢𝘳𝘤𝘩 𝘉𝘰𝘵 𝘐 𝘊𝘢𝘯 𝘚𝘦𝘢𝘳𝘤𝘩 𝘈𝘯𝘺 𝘛𝘺𝘱𝘦𝘴 𝘖𝘧 𝘔𝘰𝘷𝘪𝘦𝘴 & 𝘚𝘦𝘳𝘪𝘦𝘴 𝘐𝘯 𝘍𝘪𝘭𝘦 𝘍𝘰𝘳𝘮𝘢𝘵..👽
+    START_TXT = environ.get("START_TXT", '''ʜɪ {} 👋🏻  ɪ'ᴍ ᴍᴏᴠɪᴇ ꜰɪʟᴇs sᴇᴀʀᴄʜ ʙᴏᴛ ɪ ᴄᴀɴ sᴇᴀʀᴄʜ ᴀɴʏ ᴛʏᴘᴇs ᴏꜰ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ꜰɪʟᴇ ꜰᴏʀᴍᴀᴛ..👽
 
 <i>ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs 🙈😈👹</i>''')
     HELP_TXT = """ʜᴇʏ {}
