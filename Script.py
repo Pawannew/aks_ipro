@@ -12,19 +12,20 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
-    START_TXT = environ.get("START_TXT", '''𝙷𝙴𝙻𝙻𝙾 {} 👋🏻  𝙸 𝙰𝙼 𝙰𝙽 𝙰𝚄𝚃𝙾-𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿. 𝙰𝙳𝙳 𝙼𝙴 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..!👽</i>''')
+    START_TXT = environ.get("START_TXT", '''ʜɪ {} 👋🏻  ɪ'ᴍ ᴍᴏᴠɪᴇ ꜰɪʟᴇs sᴇᴀʀᴄʜ ʙᴏᴛ ɪ ᴄᴀɴ sᴇᴀʀᴄʜ ᴀɴʏ ᴛʏᴘᴇs ᴏꜰ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ɪɴ ꜰɪʟᴇ ꜰᴏʀᴍᴀᴛ.👽
+<i>ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs 🙈😈👹</i>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪs ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ. ."""
     ABOUT_TXT = """<b>ᴀʙᴏᴜᴛ ᴍᴇ <i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/okfilterbot ><b>ғɪʟᴛᴇʀ ʙᴏᴛ</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Cyniteofficial><b>ᴄʏɴɪᴛᴇ</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Aks_support01_bot><b>AKS</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/TechnicalCynite><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Imdb_updates><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » 𝙒𝙖𝙣𝙩 𝙏𝙤 𝙍𝙚𝙥𝙤 𝙊𝙛 𝙏𝙝𝙞𝙨 𝘽𝙤𝙩 𝘽𝙪𝙙𝙙𝙮! <b>
-» 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 @cyniteofficial<b>"""
+» 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 @Aks_support01_bot<b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
@@ -100,19 +101,19 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
-    LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
+    STATUS_TXT = """▪︎ ᴛᴏᴛᴀʟ ꜰɪᴇʟs: <code>{}</code>
+▪︎ ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
+▪︎ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+▪︎ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+▪︎ ꜰʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱"""
+    LOG_TEXT_G = """#ɴᴇᴡɢʀᴏᴜᴘ
     
-<b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
-<b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
-<b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
+<b>᚛› ɢʀᴏᴜᴘ {}(<code>{}</code>)</b>
+<b>᚛›ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs ⪼ <code>{}</code></b>
+<b>᚛›ᴀᴅᴅᴇᴅ ʙʏ {}</b>
 """
-    LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫  
+    LOG_TEXT_P = """#ɴᴇᴡᴜsᴇʀ  
     
-<b>᚛› 𝐈𝐃 - <code>{}</code></b>
-<b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
+<b>᚛› ɪᴅ - <code>{}</code></b>
+<b>᚛› ɴᴀᴍᴇ - {}</b>
 """
