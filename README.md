@@ -129,7 +129,7 @@ link - to create link for one post
 
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To [ᎯℕUℛᎯᎶ](https://telegram.dog/gurubhai11) for his awesome Auto-delete Feature.
+ - Thanks To [AKS](https://telegram.dog/gurubhai11) for his awesome Auto-delete Feature.
  - Thanks To All Everyone In This Journey
 
 ### Note
