@@ -23,13 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐀𝐧𝐨𝐭𝐡𝐞𝐫 𝐆𝐫𝐨𝐮𝐩', url='http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('🤖 UPDATES 🤖', url='https://t.me/Imdb_updates')
             ],
             [
-                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/Cyniteofficial"),
-            ],
-            [
-                InlineKeyboardButton('⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡', url='https://t.me/mdisklink_link/2')
+                InlineKeyboardButton('⭕️ SUBSCRIBE ⭕️', url=f"https://youtube.com/channel/UCPWbsW-g2CW5PSJ_50CmtUQ"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -86,13 +83,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚚ ADD ME TO YOUR GROUP ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖ᴜᴘᴅᴀᴛᴇs', url='https://t.me/TechnicalCynite')
+            InlineKeyboardButton('⭕️ SUBSCRIBE ⭕️', url=f"https://youtube.com/channel/UCPWbsW-g2CW5PSJ_50CmtUQ"),
+            InlineKeyboardButton('🤖 UPDATES 🤖', url='https://t.me/Imdb_updates')
         ], [
-            InlineKeyboardButton('ℹ️ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🔰ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('❓️ HELP ❓️', callback_data='help'),
+            InlineKeyboardButton('🌀 ABOUT 🌀', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
