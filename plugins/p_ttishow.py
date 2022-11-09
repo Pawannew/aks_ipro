@@ -55,7 +55,7 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
-                                                 caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.\n\n<b>┏≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>\n┣ <b>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ›› @cynitemovies</b></code>\n<b>┗≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>',
+                                                 caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.\n\n<b>┏≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>\n┣ <b>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ›› @naruto_filesbot</b></code>\n<b>┗≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>',
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('✍️ ɢʀᴏᴜᴘ ʀᴜʟᴇs ✍️', url='http://t.me/MissRose_bot?start=rules_-890016090') ] ] )
                 )
 
