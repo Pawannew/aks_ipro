@@ -17,7 +17,7 @@ class script(object):
 <i>ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs 🙈😈👹</i>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪs ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ. ."""
-    ABOUT_TXT = """<b>ᴀʙᴏᴜᴛ ᴍᴇ <i>👾 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/shinchan_filesbot ><b>shinchan</b></a>\n
+    ABOUT_TXT = """<b>ᴀʙᴏᴜᴛ ᴍᴇ <i>👾 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/naruto_filesbot ><b>naruto</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Aks_support01_bot><b>AKS</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
