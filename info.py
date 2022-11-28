@@ -38,7 +38,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Aks_files2')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001769642119'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Imdb_updates)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Imdb_updates')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
