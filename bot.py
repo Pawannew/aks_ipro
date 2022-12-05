@@ -1,5 +1,3 @@
-import os
-import math
 import logging
 import logging.config
 from aiohttp import web
