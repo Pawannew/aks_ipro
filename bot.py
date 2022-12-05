@@ -1,3 +1,5 @@
+import os
+import math
 import logging
 import logging.config
 from aiohttp import web
@@ -9,14 +11,19 @@ logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("imdbpy").setLevel(logging.ERROR)
 
+from pyrogram.errors import BadRequest, Unauthorized
+from datetime import datetime
+from pytz import timezone
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 from database.ia_filterdb import Media
 from database.users_chats_db import db
-from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_STR
+from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_STR, LOG_CHANNEL, PORT
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
+LOGGER = logging.getLogger(__name__)
+TIMEZONE = (os.environ.get("TIMEZONE", "Asia/Kolkata"))
 
 class Bot(Client):
 
@@ -27,14 +34,14 @@ class Bot(Client):
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
             workers=50,
-            plugins={"root": "plugins"},
+            plugins={"root": "LUCIFER"},
             sleep_threshold=5,
         )
 
     async def start(self):
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
-        temp.BANNED_CHATS = b_chats        
+        temp.BANNED_CHATS = b_chats
         await super().start()
         await Media.ensure_indexes()
         me = await self.get_me()
@@ -52,11 +59,18 @@ class Bot(Client):
         await web.TCPSite(app, bind_address, PORT).start()
         logging.info(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
         logging.info(LOG_STR)
+        if LOG_CHANNEL:
+            try:
+                await self.send_message(LOG_CHANNEL, text=f"<b>{me.mention} Rᴇsᴛᴀʀᴛᴇᴅ !!\n\n📅 Dᴀᴛᴇ : <code>{date}</code>\n⏰ Tɪᴍᴇ : <code>{time}</code>\n🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>{TIMEZONE}</code>\n\n🉐 Vᴇʀsɪᴏɴ : <code>v{__version__}</code></b>")
+            except Unauthorized:
+                LOGGER.warning("Bot isn't able to send message to LOG_CHANNEL")
+            except BadRequest as e:
+                LOGGER.error(e)
 
     async def stop(self, *args):
         await super().stop()
         logging.info("Bot stopped. Bye.")
-    
+
     async def iter_messages(
         self,
         chat_id: Union[int, str],
