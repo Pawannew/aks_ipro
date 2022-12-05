@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://t.me/how_to_download_channel/11')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/mdisklink_link/2')
         ]
     )
 
@@ -433,13 +433,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ADD ME TO YOUR GROUP ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⭕️ SUBSCRIBE ⭕️', url=f"https://youtube.com/channel/UCPWbsW-g2CW5PSJ_50CmtUQ"),
-            InlineKeyboardButton('🤖 UPDATES 🤖', url='https://t.me/Imdb_updates')
+            InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🤖ᴜᴘᴅᴀᴛᴇs', url='https://t.me/TechnicalCynite')
         ], [
-            InlineKeyboardButton('❓️ HELP ❓️', callback_data='help'),
-            InlineKeyboardButton('🌀 ABOUT 🌀', callback_data='about')
+            InlineKeyboardButton('ℹ️ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🔰ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -688,7 +688,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="❓️ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ❓️", url='https://t.me/how_to_download_channel/11')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/mdisklink_link/2')
         ]
     )
 
@@ -864,4 +864,3 @@ async def manual_filters(client, message, text=False):
                 break
     else:
         return False
-   
